@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summer Sale</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- custom color -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'share-color': '#E527B2',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header class="container mx-auto mt-4 gap-10">
+    <div class="hero bg-[#F9F6E2]">
+      <div class="hero-content flex-col lg:flex-row-reverse gap-10">
+        <img src="images/Summer 1.png" class="max-w-sm rounded-lg " />
+        <div>
+          <h3 class="text-xl font-bold text-center mb-4">---SALE FEVER---</h3>
+          <p class="text-4xl font-bold mb-4 text-center">Purchase TK 200 or
+            <br> above & get <span class="text-[#E527B2]">20% off</span>
+          </p>
+
+          <div class="text-center">
+            <span>Use Promo Code</span>
+            <button class="btn bg-share-color text-white w-32">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
