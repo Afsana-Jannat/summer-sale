@@ -10,10 +10,11 @@ function handleClickBtn(target){
     [0];
     total = parseFloat(total) + parseFloat(price);
     document.getElementById("total").innerText = total;
-
+    
     if(total>0){
         document.getElementById("total-tk").innerText = total;
     }
+    
     if(total>=200){
         discount = total * 20/100;
         document.getElementById("discount").innerText = discount;
@@ -21,3 +22,4 @@ function handleClickBtn(target){
         document.getElementById("total-tk").innerText = totaltk;
     }
 }
+
